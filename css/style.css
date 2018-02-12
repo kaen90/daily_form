@@ -1,0 +1,98 @@
+body {
+    min-width: 1040px;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    color: #7a7b7f;
+    position: relative;
+    background-image: url("main.png");
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.feedback {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 460px;
+    background-color: #77eaab;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.feedback .container {
+    width: 400px;
+    margin: 0 auto;
+}
+.feedback .section-title {
+    max-width: 365px;
+    color: #1b1c1d;
+    margin: 0;
+    padding: 0;
+}
+.feedback .section-title img{
+	margin-right: 5px;
+}
+.feedback-tip {
+    max-width: 385px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #7a7b7f;
+}
+.feedback-tip a{
+	text-decoration: none;
+	color: #ea355a;
+	margin-left: 5px;
+}
+.feedback-tip a:hover{
+	color: #1b1c1d;
+}
+.feedback-form {
+    width: 400px;
+}
+.feedback-form-group {
+    margin-bottom: 20px;
+}
+.feedback-form-group-left-part {
+    float: left;
+}
+
+.feedback-form-group-right-part {
+    float: right;
+}
+
+.feedback-form-group-left-part,
+.feedback-form-group-right-part {
+    width: 190px;
+}
+.feedback-form input[type="text"],
+.feedback-form input[type="password"]{
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    padding: 13px 15px;
+    font-size: 14px;
+    vertical-align: middle;
+    color: inherit;
+    background-color: #f0f0f0;
+}
+.feedback-form .btn {
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #ea355a;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid #bd1962;
+}
+.feedback-form .btn:hover{
+	color: #1b1c1d;
+
+}
